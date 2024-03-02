@@ -5,9 +5,9 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry]
-name = "your-tea-project"
+name = "twitter-cookie"
 version = "0.1.0"
-description = "Ytea project"
+description = "twitter project"
 authors = ["KurniawanZATY"]
 
 [tool.poetry.dependencies]
