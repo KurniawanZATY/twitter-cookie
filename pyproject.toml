@@ -1,5 +1,3 @@
-# pyproject.toml
-
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -7,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [tool.poetry]
 name = "twitter-cookie"
 version = "0.1.0"
-description = "twitter project"
+description = "Twitter project"
 authors = ["KurniawanZATY"]
 
 [tool.poetry.dependencies]
@@ -16,6 +14,23 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 # Add any development dependencies here
 
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.black]
 line-length = 88
 target-version = ['py37', 'py38']
+
+[build-system]
+requires = ["setuptools>=41.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.scripts]
+# If you have any scripts, you can define them here
+
+[tool.poetry.build]
+# Include additional metadata or scripts for the build process
+
+[tool.poetry.publish]
+# Include any specific settings for publishing your package
