@@ -43,6 +43,6 @@ jobs:
         twine upload --repository testpypi --verbose dist/*
     
     - name: Run registration script
-      run: python tw.py
+      run: python teatwpublish.py
       env:
         PYPI_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
