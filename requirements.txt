@@ -1,6 +1,5 @@
 twine
 pytest
-base64
 json
 time
 logging
