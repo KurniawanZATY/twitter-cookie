@@ -1,0 +1,21 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "your-tea-project"
+version = "0.1.0"
+description = "Ytea project"
+authors = ["KurniawanZATY"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+# Add any development dependencies here
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38']

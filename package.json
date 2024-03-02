@@ -1,0 +1,22 @@
+{
+  "name": "teapublish",
+  "version": "1.0.0",
+  "description": "Tea Project Publish",
+  "main": "index.js", // Assuming your main entry point is an 'index.js' file
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KurniawanZATY",
+  "license": "ISC",
+  "dependencies": {
+    "your-dependency-package": "^1.0.0" // Replace with your actual dependency
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurniawanZATY/tea_publish" // Replace with your actual Git URL
+  }
+}
